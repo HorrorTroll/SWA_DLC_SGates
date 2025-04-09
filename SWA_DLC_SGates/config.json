@@ -1,0 +1,40 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "DLC Gates Style",
+      "Elements": [
+        {
+          "Name": "IncludeDir1",
+          "DisplayName": "Change DLC Gates Style",
+          "Description": [
+            "Change DLC Gates to be 'Orange color for Day' and 'Blue color for Night'. If you don't like 'Green color for DLC'"
+          ],
+          "Type": "ConfigEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "default_style"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "ConfigEnum": [
+      {
+        "DisplayName": "Orange/Day and Blue/Night",
+        "Value": "other_style",
+        "Description": [
+          ""
+        ]
+      },
+      {
+        "DisplayName": "Green/DLC",
+        "Value": "default_style",
+        "Description": [
+          ""
+        ]
+      }
+	]
+  },
+  "IniFile":"mod.ini"
+}
