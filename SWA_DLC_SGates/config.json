@@ -8,7 +8,7 @@
           "Name": "IncludeDir1",
           "DisplayName": "Change DLC Gates Style",
           "Description": [
-            "Change DLC Gates to be 'Orange color for Day' and 'Blue color for Night'. If you don't like 'Green color for DLC'"
+            "Change DLC Gates appearance to use the default Orange/Day and Blue/Night symbols or the unused Green/DLC ones."
           ],
           "Type": "ConfigEnum",
           "MinValue": null,
